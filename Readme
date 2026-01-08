@@ -1,0 +1,64 @@
+# GTG Perfumes – Product Landing Page
+
+A modern, responsive product landing page built using **HTML, CSS, and JavaScript only** (no frameworks).  
+This project demonstrates clean UI design, smooth interactions, and real-world e-commerce functionality.
+
+---
+
+## 🔗 Live Demo
+(Add your Netlify / GitHub Pages link here)
+
+---
+
+## ✨ Features
+
+### UI & Layout
+- Transparent navigation bar
+- Full-screen hero section with background image
+- Fully responsive design (desktop, tablet, mobile)
+
+### Product Gallery
+- Left & right arrow navigation
+- Clickable thumbnail images
+- Smooth image transition animation
+- Active thumbnail highlighting
+
+### Subscription Selection
+- Single Subscription & Double Subscription options
+- Only one subscription box expands at a time
+- Smooth expand and collapse animation
+- Visual fragrance selection
+
+### Dynamic Add to Cart
+- Add-to-cart link updates dynamically
+- Based on selected:
+  - Fragrance
+  - Purchase type
+
+### Scroll-Based Animations
+- Percentage counters animate on scroll
+- Section reveal animations using IntersectionObserver
+- Optimized for performance
+
+### Accordion Section
+- One accordion open at a time
+- Clean toggle interaction
+
+### Comparison Table
+- Built using pure HTML `<table>`
+- Highlighted GTG column
+- Responsive with horizontal scroll on small screens
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3 (Flexbox, Grid, Animations)
+- JavaScript (ES6)
+- No external libraries or frameworks
+
+---
+
+## 📁 Project Structure
+

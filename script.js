@@ -68,7 +68,8 @@ function updateCartLink() {
 
   if (!fragrance || !purchase) return;
 
-  addToCartBtn.href = `/cart?fragrance=${fragrance}&purchase=${purchase}`;
+  addToCartBtn.href =
+  `https://example.com/cart?fragrance=${encodeURIComponent(fragrance)}&purchase=${encodeURIComponent(purchase)}`;
 }
 
 purchaseRadios.forEach(radio => {
@@ -143,3 +144,19 @@ accordionItems.forEach(item => {
     item.querySelector(".icon").textContent = "−";
   });
 });
+
+// ================= SCROLL REVEAL =================
+const reveals = document.querySelectorAll(".reveal");
+
+const revealObserver = new IntersectionObserver(
+  entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("active");
+      }
+    });
+  },
+  { threshold: 0.2 }
+);
+
+reveals.forEach(section => revealObserver.observe(section));
