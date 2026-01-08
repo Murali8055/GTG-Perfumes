@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GTG Perfumes</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="file.css" />
+
+  
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header">
+    <div class="container header-wrapper">
+      <div class="logo">GTG</div>
+
+      <nav class="nav" id="navMenu">
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="">Fragrances</a>
+        <a href="">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </nav>
+
+      <a href="#" class="btn btn-small desktop-only">Shop Now</a>
+
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <span class="badge">Awarded the best perfume in the world</span>
+        <h1>Live your best life.</h1>
+
+        <div class="hero-stats">
+          <div>
+            <img src="./Assests/10x.svg" alt="10x">
+            <p>power</p>
+          </div>
+          <div>
+            <img src="./Assests/9.svg" alt="9">
+            <p>ingredients</p>
+          </div>
+          <div>
+            <img src="./Assests/20K+.svg" alt="20k">
+            <p>happy customers</p>
+          </div>
+        </div>
+
+        <a href="#" class="btn btn-large">Shop Now</a>
+      </div>
+
+      
+  </section>
+
+  <!-- ================= PRODUCT ================= -->
+  <section class="product">
+    <div class="container product-grid">
+
+      <!-- Gallery -->
+      <div class="gallery">
+        <div class="gallery-main">
+          <img id="mainImage" src="./Assests/Group 1000004093.png" alt="Perfume">
+          <button class="arrow left" data-dir="prev">‹</button>
+          <button class="arrow right" data-dir="next">›</button>
+        </div>
+
+        <div class="gallery-dots" id="galleryDots"></div>
+
+        <div class="gallery-thumbs">
+          <img src="./Assests/Group 1000004093.png" data-index="0">
+          <img src="./Assests/Image_fx (14)-Photoroom 1.png" data-index="1">
+          <img src="./Assests/pexels-artempodrez-6801177 1.png" data-index="2">
+        </div>
+      </div>
+
+      <!-- Product Options -->
+      <div class="product-info">
+        <h2>GTG Perfumes</h2>
+        <p class="rating">★★★★★ 4.8 (1,248 reviews)</p>
+
+        <!-- ================= PURCHASE OPTIONS ================= -->
+<div class="purchase-options">
+
+  <!-- SINGLE SUBSCRIPTION -->
+  <div class="purchase-card active" data-type="single">
+    <label class="purchase-header">
+      <input type="radio" name="purchase" value="single" checked />
+      <span>Single Subscription</span>
+      <span class="price">$99.99 <del>$144</del></span>
+    </label>
+
+    <div class="purchase-body">
+      <h5>Choose a Fragrance</h5>
+      <div class="fragrance-grid">
+        <label><input type="radio" name="fragrance" value="original" checked><img src="./Assests/Group 1000004093.png"></label>
+        <label><input type="radio" name="fragrance" value="lily"><img src="./Assests/Image_fx (14)-Photoroom 1.png"></label>
+        <label><input type="radio" name="fragrance" value="rose"><img src="./Assests/Image_fx (14)-Photoroom 2.png"></label>
+      </div>
+
+      <h5>What's Included</h5>
+      <div class="included-box">
+        <div>Every 30 Days</div>
+        <div>One Time <strong>(Free)</strong></div>
+      </div>
+
+      <ul class="benefits">
+        <li>1 Bottle Shipped Monthly</li>
+        <li>Free Sampler for All Fragrances</li>
+        <li>50% Off Shipping</li>
+        <li>Pause or Cancel Anytime</li>
+        <li>28 Day Money Back Guarantee</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- DOUBLE SUBSCRIPTION -->
+  <div class="purchase-card" data-type="double">
+    <label class="purchase-header">
+      <input type="radio" name="purchase" value="double" />
+      <span>Double Subscription</span>
+      <span class="price">$169.99 <del>$146</del></span>
+    </label>
+
+    <div class="purchase-body">
+      <h5>Choose Fragrance 1</h5>
+      <div class="fragrance-grid">
+        <label><input type="radio" name="fragrance1"><img src="./Assests/Group 1000004093.png"></label>
+        <label><input type="radio" name="fragrance1"><img src="./Assests/Image_fx (14)-Photoroom 1.png"></label>
+        <label><input type="radio" name="fragrance1"><img src="./Assests/Image_fx (14)-Photoroom 2.png"></label>
+      </div>
+
+      <h5>Choose Fragrance 2</h5>
+      <div class="fragrance-grid">
+        <label><input type="radio" name="fragrance2"><img src="./Assests/Group 1000004093.png"></label>
+        <label><input type="radio" name="fragrance2"><img src="./Assests/Image_fx (14)-Photoroom 1.png"></label>
+        <label><input type="radio" name="fragrance2"><img src="./Assests/Image_fx (14)-Photoroom 2.png"></label>
+      </div>
+
+      <h5>What's Included</h5>
+      <div class="included-box">
+        <div>Every 30 Days</div>
+        <div>One Time <strong>(Free)</strong></div>
+      </div>
+
+      <ul class="benefits">
+        <li>2 Bottles Shipped Monthly</li>
+        <li>Free Sampler Included</li>
+        <li>50% Off Shipping</li>
+        <li>Pause or Cancel Anytime</li>
+        <li>28 Day Money Back Guarantee</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+
+        <a href="#" id="addToCart" class="btn btn-large full-width">
+          Add to Cart
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= OUR COLLECTION ================= -->
+<section class="collection">
+  <div class="container collection-grid">
+
+    <!-- Left: Accordion -->
+    <div class="collection-left">
+      <h2>Our Collection</h2>
+
+      <div class="accordion">
+
+        <div class="accordion-item active">
+          <button class="accordion-header">
+            Signature Scents
+            <span class="icon">−</span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Discover our curated line of signature perfumes,
+              designed to become your daily companion.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            Signature Scents
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Carefully crafted fragrances using premium ingredients
+              for long-lasting impressions.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            Signature Scents
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Balanced blends that suit every occasion,
+              from casual days to special evenings.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            Signature Scents
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Designed for skin compatibility and
+              consistent fragrance harmony.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Right: Image -->
+    <div class="collection-right">
+      <img src="./Assests/pexels-cottonbro-4659793 1.png" alt="Perfume lifestyle">
+    </div>
+
+  </div>
+</section>
+
+
+
+
+  <!-- ================= COUNTERS ================= -->
+  <section class="stats" id="statsSection">
+    <div class="container stats-grid">
+      <div><span data-count="84">0</span>%</div>
+      <div><span data-count="78">0</span>%</div>
+      <div><span data-count="89">0</span>%</div>
+      <div><span data-count="90">0</span>%</div>
+    </div>
+  </section>
+
+
+  <!-- ================= COMPARISON ================= -->
+<section class="comparison">
+  <div class="container">
+
+    <p class="comparison-divider">---</p>
+    <h2 class="comparison-title">Why GTG is the #1 Choice</h2>
+
+    <div class="table-wrapper">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Qualities</th>
+            <th class="highlight">
+              <img src="./Assests/pexels-artempodrez-6801177 1.png" alt="GTG">
+              <span>GTG</span>
+            </th>
+            <th>
+              <img src="./Assests/pexels-pixabay-264870 1.png" alt="Rose">
+              <span>Rose</span>
+            </th>
+            <th>
+              <img src="./Assests/pexels-rethaferguson-3059609 2.png" alt="Bella">
+              <span>Bella</span>
+            </th>
+            <th>
+              <img src="./Assests/pexels-valeriya-1961782 1.png" alt="Daisies">
+              <span>Daisies</span>
+            </th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Potency Concentration</td>
+            <td class="highlight">10x</td>
+            <td>1x</td>
+            <td>1x</td>
+            <td>10x</td>
+          </tr>
+
+          <tr>
+            <td>Longevity</td>
+            <td class="highlight">✔</td>
+            <td>✔</td>
+            <td>✕</td>
+            <td>✔</td>
+          </tr>
+
+          <tr>
+            <td>Sillage</td>
+            <td class="highlight">✔</td>
+            <td>✕</td>
+            <td>✕</td>
+            <td>✕</td>
+          </tr>
+
+          <tr>
+            <td>Bottle Design Score</td>
+            <td class="highlight">9</td>
+            <td>5</td>
+            <td>6</td>
+            <td>2</td>
+          </tr>
+
+          <tr>
+            <td>Blend and Harmony</td>
+            <td class="highlight">✔</td>
+            <td>✕</td>
+            <td>✕</td>
+            <td>✕</td>
+          </tr>
+
+          <tr>
+            <td>Skin Compatibility</td>
+            <td class="highlight">✔</td>
+            <td>✕</td>
+            <td>✕</td>
+            <td>✕</td>
+          </tr>
+
+          <tr>
+            <td>Scent Profile</td>
+            <td class="highlight">✔</td>
+            <td>✔</td>
+            <td>✕</td>
+            <td>✕</td>
+          </tr>
+
+          <tr>
+            <td>Price vs. Quality</td>
+            <td class="highlight">✔</td>
+            <td>✔</td>
+            <td>✕</td>
+            <td>✔</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <a href="#" class="btn btn-large comparison-cta">Try It Risk-Free</a>
+
+  </div>
+</section>
+
+
+  <!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer-grid">
+
+    <!-- Brand -->
+    <div>
+      <h3 class="footer-logo">GTG</h3>
+      <nav class="footer-links">
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Fragrances</a>
+      </nav>
+    </div>
+
+    <!-- Company -->
+    <div>
+      <nav class="footer-links">
+        <a href="#">About Us</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+
+    <!-- Social -->
+    <div>
+      <nav class="footer-social">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">X</a>
+      </nav>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="footer-newsletter">
+      <p>Join our newsletter to stay up to date on features and releases.</p>
+      <form>
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+      <small>
+        By subscribing you agree to our Privacy Policy and provide consent to receive updates.
+      </small>
+    </div>
+
+  </div>
+</footer>
+
+
+
+  <script defer src="file.js"></script>
+</body>
+</html>
